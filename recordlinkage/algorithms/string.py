@@ -222,8 +222,6 @@ def smith_waterman_similarity(s1, s2, match=5, mismatch=-5, gap_start=-5, gap_co
         Float
             A similarity score between 0 and 1.
         """
-        print(t)
-        print(type(t))
         str1 = t[0]
         str2 = t[1]
 
